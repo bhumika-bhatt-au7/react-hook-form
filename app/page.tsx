@@ -3,5 +3,5 @@ import { BasicForm } from "@/components/basic-form";
 import { Form } from "@/components/form-shadcn";
 
 export default function Home() {
-  return <BasicFormRHF />;
+  return <Form />;
 }
