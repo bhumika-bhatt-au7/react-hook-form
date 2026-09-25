@@ -124,6 +124,8 @@ export function BasicFormRHF() {
                     <div key={option.value} className="flex items-center gap-3">
                       <input
                         type="checkbox"
+                        id={option.id}
+                        value={option.value}
                         {...register("checkedOptions")}
                         className="size-4 shrink-0 rounded-[4px] border border-input shadow-xs"
                       />
@@ -144,6 +146,8 @@ export function BasicFormRHF() {
                     <div key={option.id} className="flex items-center gap-3">
                       <input
                         type="radio"
+                        id={option.id}
+                        value={option.value}
                         {...register("radioOption")}
                         className="size-4 shrink-0 rounded-full border border-input"
                       />
